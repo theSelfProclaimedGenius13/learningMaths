@@ -2,7 +2,9 @@
 #include<cmath>
 
 namespace basic_maths_func 
+
 {
+	inline constexpr double PI = double(double(22) / double(7));
 	double add(double num1, double num2) noexcept {
 		return num1 + num2;
 	}

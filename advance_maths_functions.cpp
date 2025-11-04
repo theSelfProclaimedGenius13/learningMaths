@@ -5,6 +5,7 @@
 #include<map>
 namespace adv_maths_func
 {
+	inline constexpr double PI = double(double(22) / double(7));
 	double factorial (double num) noexcept {
 		return std::tgamma(num + 1);
 	}

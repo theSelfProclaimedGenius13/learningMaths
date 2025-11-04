@@ -133,10 +133,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="basic_maths.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="basic_maths.h" />
+    <ClCompile Include="basic_maths_functions.cpp" />
+    <ClCompile Include="basic_trig_functions.cpp" />
+    <ClCompile Include="geometry_functions.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
